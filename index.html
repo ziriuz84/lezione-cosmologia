@@ -1,40 +1,157 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <style>
+      section > img {
+        max-height: 500px !important;
+        height: 500px !important;
+      }
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+      h2 {
+        font-size: 1.6em !important;
+      }
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+      .logo {
+        max-height: 300px !important;
+      }
+
+      .smaller-font {
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Cosmologia</h1>
+          <h2 style="font-size: 1.1em !important">
+            Da dove veniamo, dove siamo e dove andiamo?
+          </h2>
+          <img class="logo" src="/img/logo.png" />
+        </section>
+        <section>
+          <h2>Chi sono?</h2>
+        </section>
+        <section>
+          <h2>La risposta</h2>
+          <img
+            src="img/pensieroprofondo.webp"
+            alt=""
+            style="height: 500px; object-fit: contain"
+            class="fragment"
+          />
+        </section>
+        <section>
+          <h2>Cosa vuole dire Cosmologia</h2>
+          <ul>
+            <li class="fragment">
+              Dal greco antico κόσμος?, kósmos, "ordine" e λόγος, lógos,
+              "discorso"
+            </li>
+            <li class="fragment">
+              Nasce come branca della filosofia, interessandosi dello spazio,
+              del tempo e della materia
+            </li>
+            <li class="fragment">
+              Inizialmente esclude ogni domanda su origine e fine del cosmo, a
+              cui cercano risposta le Cosmogonie fisiche e religiose
+            </li>
+          </ul>
+        </section>
+        <section>
+          <section>
+            <h2>Breve storia della Cosmologia</h2>
+            <ul>
+              <li class="fragment">Primi cenni in epoca assiro babilonese</li>
+              <li class="fragment">
+                Epoca classica: il sistema geocentrico, l'universo perfetto e
+                immutabile, increato ed eterno
+              </li>
+              <li class="fragment">
+                La rivelazione ebraica e il creazionismo. Il problema del tempo
+              </li>
+            </ul>
+            <aside class="notes">
+              Babilonesi: Un poema appartenente alla biblioteca del re
+              Assurbanipal (VII secolo a.C.), copia di un'opera del 1100 a.C.,
+              in cui si descrive la terra come centro dell'universo,
+              galleggiante su un oceano
+              <br />
+              Classica: non tutti convenivano sul geocentrismo, come Aristarco
+              di Samo. Gli stoici sostenevano la ciclicità di creazione e
+              distruzione
+              <br />
+              Agostino per primo ipotizza che il tempo non sia un'entità eterna,
+              ma abbia avuto inizio insieme allo spazio
+            </aside>
+          </section>
+          <section>
+            <h2>Breve storia della Cosmologia</h2>
+            <ul>
+              <li class="fragment">
+                La rivoluzione copernicana, la gravitazione universale
+              </li>
+              <li class="fragment">
+                La scoperta della Via Lattea e delle altre galassie. Da Hershel
+                a Hubble
+              </li>
+              <li class="fragment">
+                La nascita della Cosmologia moderna: Einstein, Fridman, Lemaitre
+                e le conferme di Hubble
+              </li>
+            </ul>
+            <aside class="notes"></aside>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>La storia dell'Universo</h2>
+            <img src="img/storiauniverso.jpeg" alt="" />
+          </section>
+          <section>
+            <h2>La storia dell'Universo - parte 1</h2>
+            <ul>
+              <li class="fragment">Fase della grande unificazione: il punto 0</li>
+              <li class="fragment">Fase dell'inflazione: il bang</li>
+              <li class="fragment">Fase elettrodebole: si creano le principali interazioni e le prime particelle subatomiche</li>
+              <li class="fragment">Fase della materia: si formano i primi atomi</li>
+            </ul>
+            <aside class="notes">
+
+            </aside>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
